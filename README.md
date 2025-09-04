@@ -125,6 +125,7 @@ This plugin has been tested with the following software versions. Other versions
   - Imaging Library by David Rutten (v1.0.4) - via YAK Packagemanager
   - [Pufferfish by Michael Pryor (v3.0.0)](https://www.food4rhino.com/en/app/pufferfish)
   - [MeshEdit by [uto] (v2.0.0)](https://www.food4rhino.com/en/app/meshedit)
+  - [TREESLOTH by davestasiuk ](https://www.food4rhino.com/en/app/treesloth)
 
 ### Installation
 
