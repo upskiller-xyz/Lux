@@ -125,6 +125,7 @@ This plugin has been tested with the following software versions. Other versions
   - Imaging Library by David Rutten (v1.0.4) - via YAK Packagemanager
   - [Pufferfish by Michael Pryor (v3.0.0)](https://www.food4rhino.com/en/app/pufferfish)
   - [MeshEdit by [uto] (v2.0.0)](https://www.food4rhino.com/en/app/meshedit)
+  - [TREESLOTH by davestasiuk ](https://www.food4rhino.com/en/app/treesloth)
 
 ### Installation
 
@@ -132,10 +133,13 @@ This plugin has been tested with the following software versions. Other versions
   <summary><strong> 1. Plugin Installation in Revit</strong></summary>
 
   <br>
-  Follow these steps to integrate the plugin into Revit via Rhino.Inside. Once completed, the plugin tools will appear as buttons within the **Rhino.Inside** tab in the Revit ribbon.
+  Follow these steps to integrate the plugin into Revit via Rhino.Inside and take a look at the <a href="https://github.com/upskiller-xyz/Lux/wiki/Installation">installation instructions</a> for further steps. Once completed, the plugin tools will appear as buttons within the **Rhino.Inside** tab in the Revit ribbon.
 
-  *  **Download or clone** this repository  
-  <sub>`git clone https://github.com/upskiller-xyz/Daylightfactor.git`</sub>
+  *  **Download or clone** this repository 
+
+  ```sh
+  git clone https://github.com/upskiller-xyz/Lux.git
+  ```
   * Install dependencies by running 
 
   ```sh
@@ -159,12 +163,6 @@ This plugin has been tested with the following software versions. Other versions
 
 </details>
 
-<details>
-  <summary><strong> 2. Setup of local server </strong></summary>
-  TBD
-</details>
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -187,7 +185,7 @@ Select a room in Revit and run the daylight analysis.
 A heatmap and metrics (e.g., daylight factor) are generated directly in Revit.  
 Previous results are overwritten with each new analysis.
 
-For a detailed explanation of each setting, see the [Usage Guide](https://github.com/upskiller-xyz/DaylightFactor/wiki/Usage-of-the-DaylightFactor-Plugin).
+For a detailed explanation of each setting, see the [Usage Guide](https://github.com/upskiller-xyz/Lux/wiki/Usage-of-the-Daylight-Factor-Plugin).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -205,7 +203,7 @@ To ensure accurate daylight results, certain conditions must be met within the R
 
 Some limitations apply to group handling and bounding box approximations.
 
-For a full list of requirements and current limitations, see the [Documentaion](https://github.com/upskiller-xyz/DaylightFactor/wiki/Model-Requirements-&-Limitations)
+For a full list of requirements and current limitations, see the [Documentation](https://github.com/upskiller-xyz/Lux/wiki/Model-Requirements-&-Limitations)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
